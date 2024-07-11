@@ -1,5 +1,5 @@
 let nomeDoHeroi = "Zubu Mafu"
-let xpDoHeroi = 99999
+let xpDoHeroi = 10000
 let nivelDoHerói = classificacao(xpDoHeroi)
 function classificacao(xpDoHeroi){
 if(xpDoHeroi <= 1000){
