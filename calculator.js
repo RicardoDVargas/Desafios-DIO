@@ -20,7 +20,7 @@ function classification(balance){
         return "Gold"
     }else if(balance <=90){
         return "Diamond"
-    }else if(balance <=100){
+    }else if(balance <=101){
         return "Legendary"
     }else{
         return "Immortal"
