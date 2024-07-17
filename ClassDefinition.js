@@ -27,6 +27,6 @@ class caracter{
     }
 }
 
-let hero = new caracter("Ricardo", 21, 1)
+let hero = new caracter("Ricardo", 21, 2)
 
 hero.atack()
