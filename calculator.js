@@ -3,9 +3,9 @@ return numV - numD
 }
 
 //Captures user victories ​​and convert to numbers
-let numV = parseInt(prompt("Enter number of victories: "),10)
+let numV = 50//parseInt(prompt("Enter number of victories: "),10)
 //Captures user defeats and convert to numbers
-let numD = parseInt(prompt("Enter number of defeats: "),10)
+let numD = 10//parseInt(prompt("Enter number of defeats: "),10)
 //Result
 let balance = sumVicDef(numV, numD)
 
@@ -26,4 +26,4 @@ function classification(balance){
         return "Immortal"
     }
 }
-console.log(`The Hero has a balance of ${balance} and is at rank ${classification} `)
+console.log(`The Hero has a balance of ${balance} and is at rank ${classification(balance)} `)
