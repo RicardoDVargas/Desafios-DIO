@@ -23,7 +23,7 @@ function classification(balance){
     }else if(balance <=100){
         return "Legendary"
     }else{
-        return "Immortal"
+        return "GOD"
     }
 }
 console.log(`The Hero has a balance of ${balance} and is at rank ${classification(balance)} `)
